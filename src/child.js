@@ -121,7 +121,7 @@ function Child() {
 					required
 				/>
 				<br />
-				<label>Enter Test</label>
+				<label>Enter Amount</label>
 				<br />
 				<input
 					onChange={(ev) => setAmount(ev.target.value)}
