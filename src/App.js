@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+//Import React.
+import React from "react";
+
+// Import App.css.
+import "./App.css";
+
+// Import Child.js Component.
+import Child from "./child";
+
+// Import TransactionContext From transContext.js.
+import { TransactionProvider } from "./transContext";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div>
+			<TransactionProvider>
+				<Child />
+			</TransactionProvider>
+		</div>
+	);
 }
 
+// Export App Funtion And Call On Index.js.
 export default App;

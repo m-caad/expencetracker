@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,59 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.container{
+  max-width: 400px;
+  min-height: 400px;
+  margin: 0 auto;
+  background-color: #efefef;
+  box-shadow: 0 0 10px gray;
+  margin-top: 3px;
+  padding: 15px 50px;
+}
+.text-center{
+  text-align: center;
+}
+.expense-container{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  box-shadow: 0 0 10px gray;
+}
+.transition-list{
+  margin: 0;
+  padding: 0;
+}
+.transition-list > li{
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px gray;
+  padding: 10px 15px;
+  background-color: white;
+  margin: 5px 0;
+  border-radius: 4px;
+}
+.transaction-form input{
+  width: 100%;
+  margin:  10px 0;
+  padding: 5px 5px;
+}
+.delete-btn {
+  cursor: pointer;
+  /* background-color: #8a6a66; */
+  border: 0;
+  /* color: #fff; */
+  font-size: 20px;
+  line-height: 20px;
+  padding: 2px 5px;
+  /* position: absolute; */
+  /* top: 50%; */
+  left: 0;
+  transform: translate(-190%, -20%);
+  /* opacity: 0; */
+  /* transition: opacity 0.3s ease; */
+}
+.text{
+  margin-right: 74%;
 }
