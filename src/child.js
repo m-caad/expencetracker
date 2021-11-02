@@ -111,7 +111,7 @@ function Child() {
 			<form
 				className="transaction-form"
 				onSubmit={handleAddition}>
-				<label>Enter Test</label>
+				<label>Enter Description</label>
 				<br />
 				<input
 					onChange={(ev) => setDesc(ev.target.value)}
